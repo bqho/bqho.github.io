@@ -1,0 +1,163 @@
+div.bg-img {
+    background-image: url(/assets/images/brandonhoprofile.jpg);
+    height: 500px;
+
+    background-position: 0% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.bg-img-contact {
+    background-image: url(/assets/images/contact-me.png);
+    background-position: 0% 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    vertical-align: bottom;
+
+    width: 49%;
+    float: left;
+    margin: 0.5%;
+    background-color: #f8F8F8;
+    border-radius: 15px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.bg-img-publications {
+    background-image: url(/assets/images/publications.png);
+    background-position: 0% -30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+    vertical-align: bottom;
+
+    width: 49%;
+    float: left;
+    margin: 0.5%;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div.content-wrapper {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+div.bg-img-research {
+    width: 49%;
+    float: left;
+    margin: 0.5%;
+    background-color: #fbfbfd;
+    border-radius: 15px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.bg-img-CV {
+    width: 49%;
+    float: left;
+    margin: 0.5%;
+    background-color: #CDCDCD;
+    border-radius: 15px;
+    height: 500px;
+    color: #080808;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-img-CV img {
+    height: 250px;
+    width: 350px;
+    margin-top:10%;
+}
+
+.bg-img-research img {
+    height: 100%;
+    width: 90%;
+    margin-top:0%;
+}
+
+div.bg-img-research h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.transbox {
+    background: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+div.transbox p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 35px;
+    display: inline-block;
+    margin-top: 5%;
+    line-height: 50px;
+    width: 60%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.about-area {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.about-content {
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.highlights {
+    display: inline-block;
+    width: 60%;
+    height: 230px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 20px;
+    background-color: #FFFFFF;
+}
+
+.highlights div {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+}
+
+.img-logo img {
+    width: 200px;
+    height: auto;
+    margin-top: 7.5%;
+}
+
+.work-description {
+    width: 70%;
+    height: 100px;
+    margin-left: 3%;
+    display: inline-block;
+}
+
+p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #06c;
+    text-decoration: none;
+    font-size: 22px;
+}
