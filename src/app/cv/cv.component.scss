@@ -1,0 +1,23 @@
+div.top-header {
+    background: #474f67;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+div.top-header p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 35px;
+    display: inline-block;
+    margin-top: 5%;
+    line-height: 50px;
+    width: 60%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.cv-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

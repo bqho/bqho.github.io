@@ -55,16 +55,16 @@ div.publication-entry {
     width: 65%;
 }
 
-div.bg-img-biorxiv {
+div.bg-img-journal-logo {
     width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-div.bg-img-biorxiv img {
-    max-width: 80%;
-    max-height: auto;
+div.bg-img-journal-logo img {
+    width: 50%;
+    height: auto;
     margin: auto;
   }
 
@@ -98,3 +98,8 @@ a {
     width:100%;
     height:auto;
 }
+
+mark {
+    background-color: rgb(124, 253, 215);
+    color: black;
+  }

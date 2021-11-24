@@ -7,6 +7,8 @@ import { NavComponent } from './navigation/nav.component';
 import { HomeComponent } from './home/home.component';
 import { publicationsComponent } from './publications/publication.component';
 import { cellsystemsComponent } from './cellsystems-data/cellsystems.component';
+import { cvComponent } from './cv/cv.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { cellsystemsComponent } from './cellsystems-data/cellsystems.component';
     NavComponent,
     HomeComponent,
     publicationsComponent,
-    cellsystemsComponent
+    cellsystemsComponent,
+    cvComponent
   ],
   imports: [
     BrowserModule,
