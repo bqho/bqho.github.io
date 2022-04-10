@@ -16,13 +16,13 @@
 
     exports = ___CSS_LOADER_API_IMPORT___(true); // Module
 
-    exports.push([module.i, "/* You can add global styles to this file, and also import other style files */", "", {
+    exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nbody {\n  margin: 0px;\n}", "", {
       "version": 3,
-      "sources": ["/Users/brandonho/Documents/GitHub/bqho.github.io/src/styles.scss"],
+      "sources": ["/Users/brandonho/Documents/GitHub/bqho.github.io/src/styles.scss", "styles.scss"],
       "names": [],
-      "mappings": "AAAA,8EAAA",
+      "mappings": "AAAA,8EAAA;AACA;EACI,WAAA;ACCJ",
       "file": "styles.scss",
-      "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\n"]
+      "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\nbody {\n    margin: 0px;\n  }", "/* You can add global styles to this file, and also import other style files */\nbody {\n  margin: 0px;\n}"]
     }]); // Exports
 
     module.exports = exports;
