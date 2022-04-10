@@ -1,9 +1,9 @@
 div.bg-img {
     background-image: url(/assets/images/brandonhoprofile.jpg);
-    height: 600px;
+    height: 45vh;
     width: 100%;
 
-    background-position: 0% 40%;
+    background-position: 0% 30%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -23,10 +23,7 @@ div.transbox p {
     color: #FFFFFF;
     font-weight: 500;
     font-size: 35px;
-    display: inline-block;
-    margin-top: 5%;
     line-height: 50px;
-    width: 60%;
     font-family: 'Arial', Courier, monospace;
 }
 
@@ -41,15 +38,18 @@ h1 {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 550px;
+    height: 40vh;
 }
 
 .about-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40%;
-    line-height: 30px;
+    width: 65%;
+    max-width: 700px;
+    max-height: 40vh;
+    line-height: 40px;
+    overflow-y: scroll;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -59,85 +59,67 @@ h1 {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .content-panel {
-    width: 100%;
-    height: 550px;
-}
-
-
-.current-work {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: white;
-    width: 100%;
-    height: 100%;
-}
-
-
-.work-panel {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height: 100%;
-}
-
-.work-card-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    width: 50%;
-    height: 100%;
-    background-color: #f7f7f7;
-}
-
-.work-card-2 {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%;
-    height: 100%;
-    background-color: #e9e9e9;
+    width: 100%;
+    height: 35vh;
+    overflow-y: scroll;
 }
 
-.inner-work-card {
+
+.PhD-work {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 55%;
-    height: 60vh;
+    max-width: 90%;
+    max-height: 90%;
 }
 
-div.work-panel-img {
+.work-panel-img {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height:85%;
-    width:80%;
-    // padding-top: 7.5%;
-
+    max-height:30vh;
+    width:50%;
+    max-width: 50%;
+    height: 70%;
+    overflow: hidden;
+    padding: 0% 2% 0% 0%;
 }
 
-div.work-panel-img img {
-    max-width: 100%;
-    // max-height:100%;
-    object-fit: cover;
+.div-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 95%;
+    max-width: 95%;
+    object-fit:contain;
+    overflow: hidden;
+}
+
+.div-img-container img {
+    height: 100%;
+    max-height: 30vh;
+    width: 100%;
 }
 
 .work-description {
+    max-height: 30vh;
     width: 100%;
+    padding: 0% 5% 0% 0%;
+    max-width: 800px;
+    overflow-y: scroll;
 }
 
 .featured-article {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: black;
     width: 100%;
     height: 100%;
@@ -152,51 +134,47 @@ div.work-panel-img img {
     align-items: center;
     width: 100%;
     height: 100%;
+    max-height: 35vh;
     color: white;
 }
 
-.black-content-card div {
-    width: 40%;
-    height: 100%;
+.article-title {
+    width: 90%;
+    max-height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 0% 2% 0% 2%;
 }
 
-.black-content-card p {
+.article-description p {
     color: #FFFFFF;
     font-weight: 350;
     font-size: 25px;
     display: inline-block;
     line-height: 35px;
+    padding-right: 2%;
 }
 
 h2 {
-    font-family: 'Arial', Courier, monospace;
+    font-family: 'Arial';
     font-weight: 500;
+    padding: 0% 0% 2% 0%;
+    margin: 0;
 }
 
 a {
     color: #4285F4;
     text-decoration: none;
     font-size: 20px;
+    font-family: 'Arial';
 }
 
-P {
-    font-size: 16px;
+p {
+    font-size: 20px;
     display: inline-block;
-    margin-top: 5%;
-    line-height: 20px;
-    font-family: 'Arial', Courier, monospace;
-}
-
-.contact-content-panel {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 550px;
-    background-color: white;
+    line-height: 28px;
+    font-family: 'Arial';
+    font-weight: 100;
+    margin: 0;
 }

@@ -3,6 +3,9 @@ div.transbox {
     height: 250px;
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.transbox p {
@@ -10,7 +13,6 @@ div.transbox p {
     font-weight: 500;
     font-size: 35px;
     display: inline-block;
-    margin-top: 5%;
     line-height: 50px;
     width: 60%;
     font-family: 'Courier New', Courier, monospace;
